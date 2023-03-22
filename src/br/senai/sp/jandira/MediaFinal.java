@@ -35,8 +35,17 @@ public class MediaFinal {
 		System.out.println("------------------------------------");
 		System.out.println("");
 		System.out.println(nomeAluno + ", sua nota final é " + notaFinal);
-		System.out.println("");
-		System.out.println("------------------------------------");
+		
+		if(notaFinal >= 6) {
+			System.out.println("PARABÉNS!! VOCÊ FOI APROVADO!!");
+			System.out.println("");
+			System.out.println("------------------------------------");
+		}else {
+			System.out.println("QUE PENA!! VOCÊ FOI REPROVADO!!");
+			System.out.println("");
+			System.out.println("------------------------------------");
+		
+		}
 		
 	}
 
