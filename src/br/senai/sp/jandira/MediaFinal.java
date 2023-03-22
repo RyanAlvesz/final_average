@@ -5,8 +5,7 @@ import java.util.Scanner;
 public class MediaFinal {
 
 	public static void main(String[] args) {
-		
-				
+			
 		Scanner teclado = new Scanner(System.in);
 		
 		System.out.println("*************************************");
@@ -15,7 +14,7 @@ public class MediaFinal {
 		System.out.println("");
 		
 		System.out.print("Nome do Aluno: ");
-		String nomeAluno = teclado.next();
+		String nomeAluno = teclado.nextLine();
 		
 		System.out.print("Nota do bimestre 1: ");
 		double notaUm = teclado.nextDouble();
